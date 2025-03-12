@@ -1,0 +1,38 @@
+<!DOCTYPE Html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Profile Card</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        </head>
+    <body>
+        <section data-testid="container">
+            <img src="profile.jpg" alt="my picture" data-testid="profilePicture">
+           <div class="words">
+             <h1 data-testid="fullName">ALABI ESTHER O.</h1>
+             <div class="word-container">
+             <h2 data-testid="jobTitle">Web Developer</h2>
+             <p data-testid="shortBio">Aspiring full-stack developer with a strong background in biochemistry and a passion for technology. A recent first-class graduate from the University of Medical Science, I enjoy problem-solving, building web applications, and continuously learning. When I'm not coding, I love reading, listening to music, and watching TEDx talks.</p>
+             <div data-testid="currentLocation">
+                <i class="fas fa-map-marker-alt" style="color: black; font-size: 20px;"></i>
+                <h3 class="location">Ibadan, Nigeria</h3>
+             </div>
+             <p data-testid="emailAddress"><a href="mailto:alabiestheroluwatimilehin@gmail.com">Alabiestheroluwatimilehin@gmail.com</a></p>
+             <div data-testid="socialLinks">
+                <a href="https://twitter.com/@AlabiEsthe93700" target="_blank" class="icon"><i class="fab fa-twitter" style="font-size: 30px; color: #1DA1F2; margin-right: 10px;"></i></a>
+                <a href="https://www.linkedin.com/in/alabi-esther-essie" class="icon"><i class="fab fa-linkedin" style="font-size: 30px; color: #0A66C2;"></i></a>
+                <a href="https://github.com/ESTIE-CREATOR/my-code" class="icon"><i class="fab fa-github" style="font-size: 30px; color: #333;"></i></a>
+             </div>
+             <div data-testid="currentTimeUTC">
+             <p>Current UTC Time: <span id="utcTime"></span></p>
+             <script src="script.js"></script>
+            </div>
+        </div>
+        </section>
+    </body>
+</html>
+
+
+
